@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+set -e
+
+###
+# functions
+###
+
+installed() { hash $1 &> /dev/null; }
+
+###
+# globals
+###
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+###
+# installer
+###
+
+# Homebrew - https://github.com/Homebrew/homebrew
+if ! installed brew; then
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+# Brew Bundle - https://github.com/Homebrew/homebrew-bundle
+brew tap Homebrew/bundle
+brew bundle
+brew linkapps
+
+# oh-my-zsh
+if ! [[ -d $HOME/.oh-my-zsh ]]; then
+  curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+fi
