@@ -12,7 +12,6 @@ brew 'tmux'
 brew 'zsh'
 brew 'z'
 brew 'liquidprompt'
-brew 'mackup'
 
 # install casks
 cask 'sublime-text3'
