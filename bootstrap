@@ -27,6 +27,9 @@ brew tap Homebrew/bundle
 brew bundle
 brew linkapps
 
+# Dotbot install
+./install
+
 # oh-my-zsh
 if ! [[ -d $HOME/.oh-my-zsh ]]; then
   curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
