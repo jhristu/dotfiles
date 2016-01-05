@@ -1,0 +1,8 @@
+- clean: ['~']
+
+- link:
+    ~/.zshrc: zshrc
+    ~/.screenrc: screenrc
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
