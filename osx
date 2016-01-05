@@ -70,6 +70,9 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
+# Finder: show hidden files by default
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
@@ -124,6 +127,12 @@ defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool 
 defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls -bool false
 
 ###############################################################################
+# Sublime Text 3                                                              #
+###############################################################################
+# Show all hidden files in Sublime 3 open file dialog
+defaults write com.sublimetext.3 AppleShowAllFiles -bool true
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
@@ -144,7 +153,8 @@ for app in "Activity Monitor" \
 	"Terminal" \
 	"Transmission" \
 	"Twitter" \
-	"iCal"; do
+	"iCal" \
+	"Sublime Text"; do
 	killall "${app}" > /dev/null 2>&1
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
