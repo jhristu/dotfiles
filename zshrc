@@ -84,6 +84,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # .zshrc-private
-if [-f ~/.zshrc-private ]; then
+if [ -f ~/.zshrc-private ]; then
 	source ~/.zshrc-private
 fi
