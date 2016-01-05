@@ -2,6 +2,8 @@
 tap 'caskroom/versions'
 
 # brews
+brew 'coreutils'
+brew 'findutils'
 brew 'curl'
 brew 'wget'
 brew 'git'
