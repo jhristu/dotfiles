@@ -87,3 +87,8 @@ source $ZSH/oh-my-zsh.sh
 if [ -f ~/.zshrc-private ]; then
 	source ~/.zshrc-private
 fi
+
+# .zshrc-local
+if [ -f ~/.zshrc-local ]; then
+	source ~/.zshrc-local
+fi
