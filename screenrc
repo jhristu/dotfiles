@@ -1,3 +1,8 @@
+# no startup message
 startup_message off
-defscrollback 3000
-escape ^Bb
+
+# Cache 30000 lines for scroll back
+defscrollback 30000
+
+# change command character from ctrl-a to something else
+escape ^Zz
