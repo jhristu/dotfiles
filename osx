@@ -133,6 +133,12 @@ defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls
 defaults write com.sublimetext.3 AppleShowAllFiles -bool true
 
 ###############################################################################
+# XQuartz                                                                     #
+###############################################################################
+# Receive beta updates
+defaults write org.macosforge.xquartz.X11 SUFeedURL http://www.xquartz.org/releases/sparkle/beta.xml
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
