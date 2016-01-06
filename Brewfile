@@ -14,6 +14,7 @@ brew 'z'
 brew 'liquidprompt'
 brew 'ruby'
 brew 'python'
+brew 'dockutil'
 
 # install casks
 cask 'sublime-text3'

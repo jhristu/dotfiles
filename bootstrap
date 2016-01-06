@@ -34,3 +34,12 @@ brew linkapps
 if ! [[ -d $HOME/.oh-my-zsh ]]; then
   curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 fi
+
+# dockutil
+dockutil --add '/Applications/' --display folder --before 'Downloads'
+dockutil --add '~/Documents/' --display folder --before 'Downloads'
+dockutil --add /Applications/Google\ Chrome.app --position 2
+dockutil --add /Applications/Microsoft\ Outlook.app --position 3
+dockutil --add /Applications/Microsoft\ Lync.app --position 4
+dockutil --add /Applications/Sublime\ Text.app --position 5
+dockutil --add /Applications/iTerm.app --position 6
