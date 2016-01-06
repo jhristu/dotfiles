@@ -36,6 +36,21 @@ if ! [[ -d $HOME/.oh-my-zsh ]]; then
 fi
 
 # dockutil
+dockutil --remove 'Launchpad'
+dockutil --remove 'Safari'
+dockutil --remove 'Mail'
+dockutil --remove 'Contacts'
+dockutil --remove 'Calendar'
+dockutil --remove 'Notes'
+dockutil --remove 'Reminders'
+dockutil --remove 'Maps'
+dockutil --remove 'Photos'
+dockutil --remove 'Messages'
+dockutil --remove 'Facetime'
+dockutil --remove 'iTunes'
+dockutil --remove 'iBooks'
+dockutil --remove 'App Store'
+dockutil --remove 'System Preferences'
 dockutil --add '/Applications/' --display folder --before 'Downloads'
 dockutil --add '~/Documents/' --display folder --before 'Downloads'
 dockutil --add /Applications/Google\ Chrome.app --position 2
