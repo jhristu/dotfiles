@@ -3,6 +3,8 @@
 - link:
     ~/.zshrc: zshrc
     ~/.screenrc: screenrc
+    ~/.path: path
+    ~/.aliases: aliases
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

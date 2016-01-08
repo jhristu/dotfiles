@@ -94,3 +94,13 @@ fi
 if [ -f ~/.zshrc-local ]; then
 	source ~/.zshrc-local
 fi
+
+# aliases
+if [ -f ~/.aliases]; then
+	source ~/.aliases
+fi
+
+# path
+if [ -f ~/.path]; then
+	source ~/.path
+fi

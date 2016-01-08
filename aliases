@@ -1,0 +1,2 @@
+# Git
+alias amend='git commit -a --amend --no-edit'
