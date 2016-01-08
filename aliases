@@ -1,2 +1,10 @@
+# Commands
+alias grep="grep --color"
+
 # Git
 alias amend='git commit -a --amend --no-edit'
+
+# .alias-local
+if [ -f ~/.alias-local]; then
+	source ~/.alias-local
+fi
