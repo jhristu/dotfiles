@@ -5,6 +5,6 @@ alias grep="grep --color"
 alias amend='git commit -a --amend --no-edit'
 
 # .alias-local
-if [ -f ~/.alias-local]; then
+if [ -f ~/.alias-local ]; then
 	source ~/.alias-local
 fi
