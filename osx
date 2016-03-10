@@ -141,8 +141,11 @@ defaults write com.sublimetext.3 AppleShowAllFiles -bool true
 # Receive beta updates
 defaults write org.macosforge.xquartz.X11 SUFeedURL http://www.xquartz.org/releases/sparkle/beta.xml
 
-# Don't start terminal by default
-defaults write org.macosforge.xquartz.X11 app_to_run /usr/bin/true
+###############################################################################
+# iTunes                                                                      #
+###############################################################################
+# Don't start iTunes when you plug in a phone
+defaults write com.apple.iTunes dontAutomaticallySyncIPods 1
 
 ###############################################################################
 # Kill affected applications                                                  #
