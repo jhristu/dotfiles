@@ -30,6 +30,11 @@ brew linkapps
 # Dotbot install
 ./install
 
+# global 
+if [[ -f ~/.gitignore_global ]]; then
+	git config --global core.excludesfile ~/.gitignore_global
+fi
+
 # oh-my-zsh
 if ! [[ -d $HOME/.oh-my-zsh ]]; then
   curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
