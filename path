@@ -1,5 +1,9 @@
 export PATH="/apollo/env/SDETools/bin:$PATH"
 
+if [ -d $ANDROID_HOME ]; then
+	export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
+fi
+
 # .path-local
 if [ -f ~/.path-local ]; then
 	source ~/.path-local
