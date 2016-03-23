@@ -1,6 +1,7 @@
 export PATH="/apollo/env/SDETools/bin:$PATH"
 
-if [ -d $ANDROID_HOME ]; then
+if [ -d /Users/jhristu/Library/Android/sdk ]; then
+	export ANDROID_HOME=/Users/jhristu/Library/Android/sdk
 	export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
 fi
 
