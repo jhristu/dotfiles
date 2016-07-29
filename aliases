@@ -8,3 +8,6 @@ alias amend='git commit -a --amend --no-edit'
 if [ -f ~/.aliases-local ]; then
 	source ~/.aliases-local
 fi
+
+# Use this if you apply patches from the workspace /src directory (useful for multi-package patches)
+function review-board-patch { sed -E 's/ ([ab])\/pkg\/([^:]+):/ \1\/\2/g' "$1" | patch -p1 }

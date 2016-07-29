@@ -1,8 +1,14 @@
 export PATH="/apollo/env/SDETools/bin:$PATH"
+export PATH="/Users/jhristu/local/phantomjs-1.9.8-macosx/bin:$PATH"
 
 if [ -d /Users/jhristu/Library/Android/sdk ]; then
 	export ANDROID_HOME=/Users/jhristu/Library/Android/sdk
 	export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
+	launchctl setenv ANDROID_HOME $ANDROID_HOME
+fi
+
+if [ -d /Applications/Sublime\ Text.app/Contents/SharedSupport/bin ]; then
+	export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin:$PATH
 fi
 
 # .path-local
