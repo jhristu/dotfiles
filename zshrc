@@ -60,6 +60,12 @@ if [[ -f $ZSH/oh-my-zsh.sh ]]; then
 	source $ZSH/oh-my-zsh.sh
 fi
 
+# Move next only if `homebrew` is installed
+if command -v brew >/dev/null 2>&1; then
+	# Load rupa's z if installed
+	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
+fi
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
