@@ -17,7 +17,6 @@ brew 'python'
 brew 'dockutil'
 
 # install casks
-cask 'sublime-text3'
 cask 'alfred'
 cask 'iterm2'
 cask 'spotify'
