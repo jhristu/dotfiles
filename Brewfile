@@ -13,7 +13,9 @@ brew 'zsh'
 brew 'z'
 brew 'liquidprompt'
 brew 'ruby'
+brew 'ruby-build'
 brew 'python'
+brew 'pyenv'
 brew 'dockutil'
 
 # install casks
