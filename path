@@ -1,3 +1,4 @@
+export PATH="$HOME/.toolbox/bin:$PATH"
 export PATH="/apollo/env/SDETools/bin:$PATH"
 export PATH="/Users/jhristu/local/phantomjs-1.9.8-macosx/bin:$PATH"
 export PATH="/Users/jhristu/local/crux:$PATH"
