@@ -111,4 +111,10 @@ if [ -f ~/.path ]; then
 	source ~/.path
 fi
 
+# custom .completion
+if [ -d ~/.zsh ]; then
+    fpath=(~/.zsh/completion $fpath)
+    autoload -Uz compinit && compinit -i
+fi 
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
