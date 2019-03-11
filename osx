@@ -147,6 +147,14 @@ defaults write org.macosforge.xquartz.X11 SUFeedURL http://www.xquartz.org/relea
 # Don't start iTunes when you plug in a phone
 defaults write com.apple.iTunes dontAutomaticallySyncIPods 1
 
+
+###############################################################################
+# Safari
+###############################################################################
+defaults write com.apple.coreservices.uiagent CSUIHasSafariBeenLaunched -bool YES
+defaults write com.apple.coreservices.uiagent CSUIRecommendSafariNextNotificationDate -date 2050-01-01T00:00:00Z
+defaults write com.apple.coreservices.uiagent CSUILastOSVersionWhereSafariRecommendationWasMade -float 10.99
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
