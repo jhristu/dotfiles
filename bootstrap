@@ -58,8 +58,16 @@ dockutil --remove 'App Store'
 dockutil --remove 'System Preferences'
 dockutil --add '/Applications/' --display folder --before 'Downloads'
 dockutil --add '~/Documents/' --display folder --before 'Downloads'
-dockutil --add /Applications/Google\ Chrome.app --position 2
+dockutil --add /Applications/Firefox.app --position 2
 dockutil --add /Applications/Microsoft\ Outlook.app --position 3
-dockutil --add /Applications/Microsoft\ Lync.app --position 4
-dockutil --add /Applications/Sublime\ Text.app --position 5
-dockutil --add /Applications/iTerm.app --position 6
+dockutil --add /Applications/iTerm.app --position 4
+dockutil --add /Applications/Visual\ Studio\ Code.app --position 5
+dockutil --add /Applications/Spotify.app --position 6
+dockutil --add /Applications/Evernote.app --position 7
+dockutil --add /Applications/Amazon\ Chime.app --position 8
+dockutil --add /Applications/Discord.app --position 9
+dockutil --add /Applications/IntelliJ\ IDEA.app --position 10
+
+
+
+

@@ -15,8 +15,9 @@ popd
 
 Software I install via the App Store:
 
-- [Pixelmator](http://www.pixelmator.com/mac/)
-- [Flexiglass](http://www.nulana.com/flexiglass/)
+- [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
+- [Pixelmator](https://apps.apple.com/us/app/pixelmator/id407963104?mt=12)
+- [Flexiglass](https://apps.apple.com/am/app/flexiglass/id426410278?mt=12)
 
 ## Updating dotbot submodule ##
 
