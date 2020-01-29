@@ -25,7 +25,6 @@ fi
 # Brew Bundle - https://github.com/Homebrew/homebrew-bundle
 brew tap Homebrew/bundle
 brew bundle
-brew linkapps
 
 # Dotbot install
 ./install
