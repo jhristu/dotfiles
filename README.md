@@ -1,5 +1,11 @@
 # James Hristu's private dotfiles #
 
+## Pre-reqs ##
+
+1. Sign in to App Store
+1. Sign in to iCloud
+1. Install XCode Command Line Tools by running `xcode-select --instal`
+
 ## Setup ##
 
 Most of this is automated. Run the following:
@@ -22,3 +28,11 @@ Software I install via the App Store:
 ## Updating dotbot submodule ##
 
 ```git submodule update --remote dotbot```
+
+## TODO:
+
+1. Flexiglass is no longer in App Store
+1. Automate Touchpad -> Tap to click
+1. Turn off Game Centre from Internet Accounts
+1. Automate Battery -> Show Percentage
+1. Deal with `Error: caskroom/versions was moved. Tap homebrew/cask-versions instead. Tapping caskroom/versions has failed!`
