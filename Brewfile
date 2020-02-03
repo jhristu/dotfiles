@@ -21,7 +21,7 @@ brew 'pyenv'
 # install casks
 cask 'dropbox'
 cask 'google-backup-and-sync'
-cask 'corretto'
+cask 'corretto8'
 cask 'iterm2'
 cask 'spotify'
 cask 'caffeine'
