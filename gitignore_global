@@ -1,2 +1,55 @@
-.bam/
+# OS X
+.DS_Store
+._*
+
+# Eclipse
+.project
+.classpath
+.settings/
+eclipse*/
+
+# Intellij
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+eclipse*/
+
+# Intellij
+*.iml
+
+# generated files
+/build
+/generated*/
+/*bin/
+
+# Java Class Files
+*.class
+
+# Log files
+*.log
+
+# OS X
+.DS_Store
+._*
+
+# Android
+gen/
+local.properties
+*.dex
+*.apk
+*.ap_
+ant.properties
+
+# JDT Annotation Processing
+.factorypath
+.apt_generated/
+
+# Local
+*~
+
+# Other
 personal.cfg
+
