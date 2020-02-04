@@ -34,6 +34,10 @@ if [[ -f ~/.gitignore_global ]]; then
 	git config --global core.excludesfile ~/.gitignore_global
 fi
 
+if (( $+commands[subl] )); then
+	git config --global core.editor "subl -n -w"
+fi
+
 # oh-my-zsh
 if ! [[ -d $HOME/.oh-my-zsh ]]; then
   curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
