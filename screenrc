@@ -4,5 +4,8 @@ startup_message off
 # Cache 30000 lines for scroll back
 defscrollback 30000
 
+# Scroll with mouse in screen
+termcapinfo xterm* ti@:te@
+
 # change command character from ctrl-a to something else
 escape ^Zz
