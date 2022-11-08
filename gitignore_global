@@ -19,6 +19,7 @@ eclipse*/
 
 # Intellij
 *.iml
+.idea/
 
 # generated files
 /build
@@ -49,6 +50,14 @@ ant.properties
 
 # Local
 *~
+
+# Gradle
+.gradle/
+/buildSrc/build/
+/gradle/
+/gradlew
+/gradlew.bat
+/wrapper/
 
 # Other
 personal.cfg
