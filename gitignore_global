@@ -59,6 +59,8 @@ ant.properties
 /gradlew.bat
 /wrapper/
 
+# Build
+annotation-generated-src/
+
 # Other
 personal.cfg
-
