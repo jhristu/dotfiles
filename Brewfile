@@ -17,7 +17,7 @@ brew 'ruby'
 brew 'ruby-build'
 brew 'python'
 brew 'pyenv'
-brew 'dockutil'
+# brew 'dockutil' seems like dockutil is outdated on homebrew, install manually for now
 
 # install casks
 cask 'dropbox'

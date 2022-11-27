@@ -24,7 +24,7 @@ fi
 
 # Brew Bundle - https://github.com/Homebrew/homebrew-bundle
 brew tap Homebrew/bundle
-brew bundle
+brew bundle || true
 
 # Dotbot install
 ./install
@@ -34,7 +34,7 @@ if [[ -f ~/.gitignore_global ]]; then
 	git config --global core.excludesfile ~/.gitignore_global
 fi
 
-if (( $+commands[subl] )); then
+if [[ -x "$(command -v subl)" ]]; then
 	git config --global core.editor "subl -n -w"
 fi
 
