@@ -4,7 +4,7 @@
 
 1. Sign in to App Store
 1. Sign in to iCloud
-1. Install XCode Command Line Tools by running `xcode-select --instal`
+1. Install XCode Command Line Tools by running `xcode-select --install`
 
 ## Setup ##
 
@@ -23,6 +23,4 @@ popd
 
 ## TODO:
 
-1. Automate Touchpad -> Tap to click
-1. Turn off Game Centre from Internet Accounts
 1. Automate Battery -> Show Percentage
