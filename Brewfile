@@ -28,3 +28,6 @@ cask 'sublime-text'
 cask 'visual-studio-code'
 cask 'discord'
 cask 'jetbrains-toolbox'
+
+# mas
+mas "Amphetamine", id: 937984704

@@ -61,8 +61,9 @@ defaults write com.apple.dock show-recents -bool false
 # Trackpad: enable tap to click for this user and for the login screen
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults -currentHost write -globalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-jhristu$ defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 
 # Use scroll gesture with the Ctrl (^) modifier key to zoom
 defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
@@ -109,7 +110,7 @@ chflags nohidden ~/Library
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 # Set the icon size of Dock items to 72 pixels
-defaults write com.apple.dock tilesize -int 72
+defaults write com.apple.dock tilesize -int 60
 
 # Don’t animate opening applications from the Dock
 defaults write com.apple.dock launchanim -bool false
