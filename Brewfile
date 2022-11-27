@@ -1,5 +1,6 @@
 # taps
 tap 'homebrew/cask-versions'
+tap 'microsoft/git'
 
 # brews
 brew 'coreutils'
@@ -16,11 +17,10 @@ brew 'ruby'
 brew 'ruby-build'
 brew 'python'
 brew 'pyenv'
-# brew 'dockutil' # Seems like this is already installed by default?
+brew 'dockutil'
 
 # install casks
 cask 'dropbox'
-cask 'google-backup-and-sync'
 cask 'corretto8'
 cask 'iterm2'
 cask 'spotify'
@@ -28,4 +28,3 @@ cask 'sublime-text'
 cask 'visual-studio-code'
 cask 'discord'
 cask 'jetbrains-toolbox'
-cask 'postman'
