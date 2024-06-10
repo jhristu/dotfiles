@@ -18,3 +18,5 @@ fi
 if [ -f ~/.path-local ]; then
 	source ~/.path-local
 fi
+
+export PATH=/usr/local/bin:$PATH
