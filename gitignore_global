@@ -64,3 +64,6 @@ annotation-generated-src/
 
 # Other
 personal.cfg
+
+# LLMs
+.claude/
